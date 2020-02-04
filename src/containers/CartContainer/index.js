@@ -63,7 +63,7 @@ function CartContainer({ cart }) {
     <Row align="flex-start" style={{ margin: '50px 0px' }}>
       <Section>
         <SectionHeading align="center" justify="space-between">
-          <h3>My Items</h3>
+          <h2>My Items</h2>
           <Input onChange={handleKeyDown} placeholder="Search" />
         </SectionHeading>
 
@@ -82,7 +82,7 @@ function CartContainer({ cart }) {
       <Section style={{ marginLeft: '18px' }}>
         <Column xs={6} align="flex-start">
           <SectionHeading>
-            <h3>Total</h3>
+            <h2>Total</h2>
           </SectionHeading>
           <Row align="center" justify="space-between">
             <h4>Sub-total</h4>
