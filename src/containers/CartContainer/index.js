@@ -64,7 +64,7 @@ function CartContainer({ cart }) {
       <Section>
         <SectionHeading align="center" justify="space-between">
           <h3>My Items</h3>
-          <Input onChange={handleKeyDown} placeholder="Search" style={{ width: '100%;' }} />
+          <Input onChange={handleKeyDown} placeholder="Search" />
         </SectionHeading>
 
         <Column xs={6} align="flex-start">

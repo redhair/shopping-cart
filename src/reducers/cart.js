@@ -1,4 +1,4 @@
-import { REMOVE_ITEM, UPDATE_QTY, SET_PRODUCTS } from '../constants';
+import { REMOVE_ITEM, UPDATE_QTY, SET_METADATA } from '../constants';
 
 const initialState = {
   products: [
@@ -115,7 +115,7 @@ const initialState = {
 
 const cart = (state = initialState, action) => {
   switch (action.type) {
-    case SET_PRODUCTS:
+    case SET_METADATA:
       let products = [];
       for (let i = 0; i < state.products.length; i++) {
         products.push({

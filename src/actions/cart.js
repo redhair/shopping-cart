@@ -1,4 +1,4 @@
-import { REMOVE_ITEM, UPDATE_QTY, SET_PRODUCTS } from '../constants';
+import { REMOVE_ITEM, UPDATE_QTY, SET_METADATA } from '../constants';
 import { getProductMetaData } from '../api';
 
 export const removeItem = id => {
@@ -28,7 +28,7 @@ export const loadProducts = params => {
 
 export const setProductMetaData = productMetaData => {
   return {
-    type: SET_PRODUCTS,
+    type: SET_METADATA,
     productMetaData
   };
 };
