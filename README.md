@@ -10,11 +10,3 @@ cd shoppping-cart
 npm install
 npm start
 ```
-
-## Available Scripts
-
-### `npm start`
-
-### `npm test`
-
-### `npm build`
